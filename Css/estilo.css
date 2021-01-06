@@ -10,7 +10,7 @@ body{
 #conteudoTotal{
     width: 80%;
     margin: 0 auto;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     min-width: 950px;
     max-width: 1200px;
 }
@@ -19,9 +19,9 @@ body{
     background: url(../Recursos/detalhe-topo.png) no-repeat top right;
 }
 #topo #logo{
-    margin-top: 15px;
+    padding-top: 15px;
     margin-bottom: 0;
-    /*border: 1px solid red;*/
+   /* border: 1px solid red;*/
     display: block;
 }
 ul{
@@ -53,7 +53,6 @@ list-style: none;
 
 #topo ul.navegacao a:hover{
     color: black;
-   
 }
 
 #topo ul.navegacao a#selecionado{
@@ -66,13 +65,14 @@ list-style: none;
    
 }
 #conteudo{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 #principal{
     float: left ;
     margin-left: 3%;
     margin-right: 3%;
     margin-bottom: 10px;
+    background: url(../Recursos/fundo-caixa.png);
     padding: 2px;
 }
 #threeCol #principal{
@@ -88,14 +88,15 @@ list-style: none;
 }
 
 #secundario{
-    width: 21.5%;
+    width: 21.3%;
     float: left;
     margin-bottom: 10px;
+    background: url(../Recursos/fundo-caixa.png);
     padding: 2px;
    
 }
 #lateral{
-    width: 21.5%;
+    width: 21.3%;
     float: left;
     margin-bottom: 10px;
     background: url(../Recursos/fundo-caixa.png);
@@ -109,7 +110,8 @@ list-style: none;
     margin-top: 10px;
 }
 #conteudo .agrupamento{
-    margin-top: 2px;
+    margin-top: 3px;
+    margin-bottom: 15px;
     padding: 3px;
     background-color:#f9f9f9
 }
@@ -156,4 +158,54 @@ input[type="submit"]{
     border: 2px solid #870529;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 5px;
+}
+img.imgNoticia{
+    width: 100%;
+    border-radius: 10px ;
+    border: 2px solid #dfdfdf;
+}
+
+h3.tituloNoticia{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.noticia{
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.imgNoticiaRecente{
+    width: 80px;
+    float: left;
+    margin: 5px;
+}
+
+.tituloNoticiaRecente{
+    font-size: 12px;
+    color: blue;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.linkNoticiaRecente{
+    text-decoration: none;
+    text-align: justify;
+    font-size: 0.8em;
+    color: black;
+}
+.resumoNoticiaRecente{
+}
+
+ul.noticiasRecentes li {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+    clear: both;
+}
+ul.noticiasRecentes li:hover{
+    background-color: rgba(49, 99, 156, 1);
 }

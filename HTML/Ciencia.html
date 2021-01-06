@@ -7,11 +7,11 @@
         <link rel="stylesheet" type="text/css" href="../Css/estilo.css">
     </head>
 
-    <body  id="threeCol" >
+    <body  id="dualCol" >
         <div id="conteudoTotal">
             <div id="topo">
                 <img id="logo" src="../Recursos/logo.png" alt="Logo">
-                <ul id="navegacao">
+                <ul class="navegacao">
                     <li><a  href="Index.html">Home</a></li>
                     <li><a href="Brasil.html">Brasil</a></li>
                     <li><a  href="Internacional.html">Internacional</a></li>
@@ -20,8 +20,89 @@
                     <li><a id="selecionado" href="Ciencia.html">Ciencia</a></li>
                     <li><a href="Fotos.html">Fotos</a></li>
                 </ul>
-
             </div>
-        </div>    
+            <div id="conteudo">
+                <div id="lateral">
+                    <div class="agrupamento">
+                        <h2 class="tituloDiv">Entrevista</h2>
+                        <ul class="navegacao">
+                            <li><a href="">Jose Almeida</a></li>
+                            <li><a href="">Jose Almeida</a></li>
+                            <li><a href="">Jose Almeida</a></li>
+                            <li><a href="">Jose Almeida</a></li>
+                            <li><a href="">Jose Almeida</a></li>
+                            <li><a href="">Jose Almeida</a></li>
+                            <li><a href="">Jose Almeida</a></li>
+                            <li><a href="">Jose Almeida</a></li>
+                        </ul>
+                    </div>
+                    <div class="agrupamento">
+                        <h2 class="tituloDiv">Noticias Recentes</h2>
+                        <ul class="noticiasRecentes">
+                            <li>
+                                <a class="linkNoticiaRecente" href="">
+                                <img class="imgNoticiaRecente" src="../Recursos/tecnologia.jpg" alt="">
+                                <h3 class="tituloNoticiaRecente">Novas Tecnologias</h3>
+                                <p class="resumoNoticiaRecente">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="linkNoticiaRecente" href="">
+                                <img class="imgNoticiaRecente" src="../Recursos/tecnologia.jpg" alt="">
+                                <h3 class="tituloNoticiaRecente">Novas Tecnologias</h3>
+                                <p class="resumoNoticiaRecente">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="linkNoticiaRecente" href="">
+                                <img class="imgNoticiaRecente" src="../Recursos/tecnologia.jpg" alt="">
+                                <h3 class="tituloNoticiaRecente">Novas Tecnologias</h3>
+                                <p class="resumoNoticiaRecente">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="linkNoticiaRecente" href="">
+                                <img class="imgNoticiaRecente" src="../Recursos/tecnologia.jpg" alt="">
+                                <h3 class="tituloNoticiaRecente">Novas Tecnologias</h3>
+                                <p class="resumoNoticiaRecente">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="agrupamento">
+                        <h2 class="tituloDiv">Newsletter</h2>
+                        <form action="">
+                            <div>
+                                <label for="email">Cadastre seu Email:</label>
+                                <input type="text" name="email" id="email" placeholder="Digite seu email">
+                            </div>
+                            <div>
+                                <input type="submit" value="Cadastrar" id="cadastro">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div id="principal">
+                    <div class="agrupamento">
+                        <h2 class="tituloDiv">Principal</h2>
+                        <div class = "noticia">
+                            <h3 class="tituloNoticia">Nova legislaçao</h3>
+                            <img class="imgNoticia" src="../Recursos/taxi.jpg" alt="">
+                            <p class="resumoNoticia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rerum, quasi reiciendis fuga provident optio, in dolores debitis</p>
+                            <a class = "linkLeiaMais"href="">Leia Mais</a>
+                        </div>
+                        <hr>
+                        <div class = "noticia">
+                            <h3 class="tituloNoticia">Nova legislaçao</h3>
+                            <img class="imgNoticia" src="../Recursos/taxi.jpg" alt="">
+                            <p class="resumoNoticia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rerum, quasi reiciendis fuga provident optio, in dolores debitis</p>
+                            <a class = "linkLeiaMais"href="">Leia Mais</a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div id="rodape">rodape</div>       
     </body>
 </html>
